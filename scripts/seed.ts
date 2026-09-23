@@ -84,7 +84,11 @@ På det kommende debutalbum, Sketches From The Black Box, inviteres lytteren ind
     _id: 'contact',
     _type: 'contact',
     email: 'booking@jesperlorup.com',
-    socialLinks: [],
+    socialLinks: [
+      {_key: 'instagram', platform: 'instagram', url: 'https://instagram.com'},
+      {_key: 'spotify', platform: 'spotify', url: 'https://open.spotify.com'},
+      {_key: 'youtube', platform: 'youtube', url: 'https://youtube.com'},
+    ],
   })
 
   console.log('Creating news post…')
@@ -108,6 +112,7 @@ På det kommende debutalbum, Sketches From The Black Box, inviteres lytteren ind
     date: placeholderShowDate.toISOString(),
     title: 'HI FI Quartet',
     location: 'Copenhagen, DK — venue TBA',
+    link: 'https://example.com/tickets',
   })
 
   console.log('Done.')
