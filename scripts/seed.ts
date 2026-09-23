@@ -47,7 +47,7 @@ async function run() {
   await client.createOrReplace({
     _id: 'hero',
     _type: 'hero',
-    heading: 'Jesper Lørup — Drummer & Composer',
+    heading: 'Jesper Lørup',
     mediaType: 'image',
     linkedRelease: {_type: 'reference', _ref: 'release-sketches-from-the-black-box'},
   })
