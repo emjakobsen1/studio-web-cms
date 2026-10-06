@@ -16,6 +16,7 @@ export const socialLink = defineType({
           {title: 'Soundcloud', value: 'soundcloud'},
           {title: 'Instagram', value: 'instagram'},
           {title: 'Facebook', value: 'facebook'},
+          {title: 'Linktree', value: 'linktree'},
         ],
         layout: 'dropdown',
       },

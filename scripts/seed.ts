@@ -41,15 +41,7 @@ async function run() {
     description:
       'The upcoming debut album invites the listener into a creative and deeply personal universe, where the music is shaped in the meeting between strong themes and collective improvisation — with room for both sensitive pieces and uniquely intense interplay.',
     personnel: ['Jesper Lørup — Drums, compositions'],
-  })
-
-  console.log('Creating hero…')
-  await client.createOrReplace({
-    _id: 'hero',
-    _type: 'hero',
-    heading: 'Jesper Lørup',
-    mediaType: 'image',
-    linkedRelease: {_type: 'reference', _ref: 'release-sketches-from-the-black-box'},
+    featured: true,
   })
 
   console.log('Creating biography…')

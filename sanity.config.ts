@@ -4,7 +4,7 @@ import {visionTool} from '@sanity/vision'
 import {schemaTypes} from './schemaTypes'
 import {structure} from './structure'
 
-const SINGLETON_TYPES = new Set(['hero', 'biography', 'press', 'contact'])
+const SINGLETON_TYPES = new Set(['biography', 'press', 'contact'])
 
 export default defineConfig({
   name: 'default',

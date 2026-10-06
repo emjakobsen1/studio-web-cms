@@ -30,13 +30,15 @@ export const newsPost = defineType({
       title: 'Image',
       type: 'image',
       options: {hotspot: true},
+      description:
+        'Shown at its own natural proportions — upload a wide photo or a tall poster and it displays uncropped either way.',
     }),
     defineField({
       name: 'mainText',
       title: 'Main text',
       type: 'array',
       of: [{type: 'block'}],
-      validation: (rule) => rule.required(),
+      description: 'Optional — leave empty for an image-only post, e.g. a tour poster.',
     }),
   ],
   orderings: [

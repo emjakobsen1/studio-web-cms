@@ -31,6 +31,13 @@ export const event = defineType({
       type: 'url',
       description: 'Tickets, event page, etc.',
     }),
+    defineField({
+      name: 'project',
+      title: 'Project',
+      type: 'reference',
+      to: [{type: 'project'}],
+      description: 'Shown in that project’s own agenda list, in addition to the main one.',
+    }),
   ],
   orderings: [
     {

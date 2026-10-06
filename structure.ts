@@ -1,7 +1,6 @@
 import type {StructureResolver} from 'sanity/structure'
 
 const SINGLETONS = [
-  {id: 'hero', title: 'Hero'},
   {id: 'biography', title: 'Biography'},
   {id: 'press', title: 'Press'},
   {id: 'contact', title: 'Contact'},

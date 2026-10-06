@@ -37,6 +37,13 @@ export const project = defineType({
       description: 'Lower numbers are shown first.',
       initialValue: 0,
     }),
+    defineField({
+      name: 'socialLinks',
+      title: 'Social links',
+      type: 'array',
+      of: [{type: 'socialLink'}],
+      description: "This project's own links — separate from the site-wide links on the Contact page.",
+    }),
   ],
   orderings: [
     {
